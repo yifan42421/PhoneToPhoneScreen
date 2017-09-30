@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
 
         btn_sharescreen_to.setOnClickListener(new View.OnClickListener(){
 
+
+            @Override
+            public void onClick(View view) {
+
+            }
         });
     }
 }
