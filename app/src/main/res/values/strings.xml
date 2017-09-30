@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PhoneShareScreen</string>
+    <string name="sharescreen_to">共享屏幕</string>
+    <string name="sharescreen_from">接收屏幕</string>
+    <string name="title_activity_screen_share">ScreenShareActivity</string>
+</resources>
