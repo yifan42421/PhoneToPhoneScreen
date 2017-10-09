@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.testanimation.FrameAnimActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:text="@string/start" />
+
+                <Button
+                    android:id="@+id/btn_stop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stop" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/frameanim"
+                style="@style/textview_style"
+                android:drawableBottom="@drawable/frame_anim_shiye"
+                android:text="@string/frameanim1" />
+
+            <TextView
+                android:id="@+id/frameanim2"
+                style="@style/textview_style"
+                android:text="@string/frameanim2" />
+
+            <TextView
+                android:id="@+id/alphaanim"
+                style="@style/textview_style"
+                android:drawableBottom="@drawable/shiye_2"
+                android:text="@string/alphaanim1" />
+
+            <TextView
+                android:id="@+id/alphaanim2"
+                style="@style/textview_style"
+                android:drawableBottom="@drawable/shiye_2"
+                android:text="@string/alphaanim2" />
+
+            <TextView
+                android:id="@+id/scaleanim"
+                style="@style/textview_style"
+                android:drawableBottom="@drawable/shiye_3"
+                android:text="@string/scaleanim1" />
+
+            <TextView
+                android:id="@+id/scaleanim2"
+                style="@style/textview_style"
+                android:drawableBottom="@drawable/shiye_3"
+                android:text="@string/scaleanim2" />
+
+            <TextView
+                android:id="@+id/translateanim"
+                style="@style/textview_style"
+                android:drawableBottom="@drawable/shiye_4"
+                android:text="@string/translateanim1" />
+
+            <TextView
+                android:id="@+id/translateanim2"
+                style="@style/textview_style"
+                android:drawableBottom="@drawable/shiye_4"
+                android:text="@string/translateanim2" />
+
+            <TextView
+                android:id="@+id/rotateanim"
+                style="@style/textview_style"
+                android:drawableBottom="@drawable/shiye_5"
+                android:text="@string/rotateanim1" />
+
+            <TextView
+                android:id="@+id/rotateanim2"
+                style="@style/textview_style"
+                android:drawableBottom="@drawable/shiye_5"
+                android:text="@string/rotateanim2" />
+
+
+            <TextView
+                android:id="@+id/customanim"
+                style="@style/textview_style"
+                android:drawableBottom="@drawable/shiye_6"
+                android:text="@string/customanim" />
+
+            <TextView
+                android:id="@+id/propertyanim"
+                style="@style/textview_style"
+                android:drawableBottom="@drawable/shiye_6"
+                android:text="@string/propertyanim" />
+
+            <RelativeLayout
+                android:id="@+id/transition_anim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_transition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/transitionanim"
+                    android:transitionName="@string/transitionanim"/>
+
+                <Button
+                    android:id="@+id/goButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/tv_transition"
+                    android:layout_toRightOf="@+id/tv_transition"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/bt_transition"
+                    android:transitionName="@string/bt_transition"/>
+            </RelativeLayout>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

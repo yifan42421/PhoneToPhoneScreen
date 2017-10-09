@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TestAnimation</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="frameanim1">frame动画（xml形式）</string>
+    <string name="frameanim2">frame动画（代码形式）</string>
+    <string name="alphaanim1">alpha动画（xml形式）</string>
+    <string name="alphaanim2">alpha动画（代码形式）</string>
+    <string name="scaleanim1">scale动画（xml形式）</string>
+    <string name="scaleanim2">scale动画（代码形式）</string>
+    <string name="translateanim1">translate动画（xml形式）</string>
+    <string name="translateanim2">translate动画（代码形式）</string>
+    <string name="rotateanim1">rotate动画（xml形式）</string>
+    <string name="rotateanim2">rotate动画（代码形式）</string>
+    <string name="customanim">自定义动画</string>
+    <string name="propertyanim">属性动画</string>
+    <string name="transitionanim">过渡动画（点击右面按钮）</string>
+    <string name="bt_transition">过渡动画</string>
+</resources>
